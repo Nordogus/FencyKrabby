@@ -1,0 +1,200 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5741967791558614128
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1577390905079153069}
+  - component: {fileID: 5033339852209923682}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1577390905079153069
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5741967791558614128}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5033339852209923682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5741967791558614128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40c7924f713241d489170408fa23b913, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Theme_combat
+    clip: {fileID: 8300000, guid: f203dccd5610d2a4595a0819ddd19473, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+    playOnStart: 1
+  - name: Son_Choc_Crabe
+    clip: {fileID: 8300000, guid: 7242608ce0a909b47b7efbb14fd387b4, type: 3}
+    volume: 0.05
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    playOnStart: 0
+  - name: Son_Choc_Pince
+    clip: {fileID: 8300000, guid: aa50a3c17e7038647a2ba0c5c8829c66, type: 3}
+    volume: 0.04
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    playOnStart: 0
+  - name: Son_Dash
+    clip: {fileID: 8300000, guid: 55fc12c648d9c09449425cb52ac21534, type: 3}
+    volume: 0.03
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    playOnStart: 0
+  - name: Son_Mouvement_Pince
+    clip: {fileID: 8300000, guid: 25f94dd7ed3926940a3b072d2c793aa4, type: 3}
+    volume: 0.05
+    pitch: 1.72
+    loop: 0
+    source: {fileID: 0}
+    playOnStart: 0
+  - name: Bleu_defenseur
+    clip: {fileID: 8300000, guid: c09bbdea3cd2122418c2a91180c1d32a, type: 3}
+    volume: 1
+    pitch: 1.5
+    loop: 0
+    source: {fileID: 0}
+    playOnStart: 0
+  - name: Bleu_punchline
+    clip: {fileID: 8300000, guid: 2c1eb54c8ab1f2c4393348ad01f504aa, type: 3}
+    volume: 1
+    pitch: 1.5
+    loop: 0
+    source: {fileID: 0}
+    playOnStart: 0
+  - name: Rouge_defenseur
+    clip: {fileID: 8300000, guid: 5109a6cc005b9c04b8921a64dd7694bc, type: 3}
+    volume: 1
+    pitch: 1.5
+    loop: 0
+    source: {fileID: 0}
+    playOnStart: 0
+  - name: Rouge_punchline
+    clip: {fileID: 8300000, guid: 4daad1de74b8cc145892de56fce7c04a, type: 3}
+    volume: 1
+    pitch: 1.5
+    loop: 0
+    source: {fileID: 0}
+    playOnStart: 0
+  - name: Jaune_defenseur
+    clip: {fileID: 8300000, guid: ba39914ef308d514cab25ac57e30abf8, type: 3}
+    volume: 1
+    pitch: 1.5
+    loop: 0
+    source: {fileID: 0}
+    playOnStart: 0
+  - name: Jaune_punchline
+    clip: {fileID: 8300000, guid: 84c569c70b3fd8b478459400cc34f544, type: 3}
+    volume: 1
+    pitch: 1.5
+    loop: 0
+    source: {fileID: 0}
+    playOnStart: 0
+  - name: Vert_defenseur
+    clip: {fileID: 8300000, guid: 0e0d97c24cbfa0948827b58f782c8eae, type: 3}
+    volume: 1
+    pitch: 1.5
+    loop: 0
+    source: {fileID: 0}
+    playOnStart: 0
+  - name: Vert_punchline
+    clip: {fileID: 8300000, guid: 999ef16fbc58b9849be036e8a4b09c7d, type: 3}
+    volume: 1
+    pitch: 1.5
+    loop: 0
+    source: {fileID: 0}
+    playOnStart: 0
+  - name: Bleu_attaquant
+    clip: {fileID: 8300000, guid: 815e27597d41f244f8b75171ef5ced79, type: 3}
+    volume: 0.8
+    pitch: 1.5
+    loop: 0
+    source: {fileID: 0}
+    playOnStart: 0
+  - name: Rouge_attaquant
+    clip: {fileID: 8300000, guid: ee4508325bf064e4686235b7e2e5b8db, type: 3}
+    volume: 1
+    pitch: 1.7
+    loop: 0
+    source: {fileID: 0}
+    playOnStart: 0
+  - name: Jaune_attaquant
+    clip: {fileID: 8300000, guid: 51eb1effa3dc5d1418f477e25123f576, type: 3}
+    volume: 1
+    pitch: 1.5
+    loop: 0
+    source: {fileID: 0}
+    playOnStart: 0
+  - name: Vert_attaquant
+    clip: {fileID: 8300000, guid: 6ee205bc6b83ca744949776fc0e976c6, type: 3}
+    volume: 1
+    pitch: 1.5
+    loop: 0
+    source: {fileID: 0}
+    playOnStart: 0
+  - name: Bleu_win
+    clip: {fileID: 8300000, guid: 11d5d60a9d34011419307d4548c7428a, type: 3}
+    volume: 0.89
+    pitch: 1.5
+    loop: 1
+    source: {fileID: 0}
+    playOnStart: 0
+  - name: Rouge_win
+    clip: {fileID: 8300000, guid: 683778737b84e43419ec113f88214aee, type: 3}
+    volume: 1
+    pitch: 1.4
+    loop: 1
+    source: {fileID: 0}
+    playOnStart: 0
+  - name: Jaune_win
+    clip: {fileID: 8300000, guid: 999ef16fbc58b9849be036e8a4b09c7d, type: 3}
+    volume: 1
+    pitch: 1.5
+    loop: 1
+    source: {fileID: 0}
+    playOnStart: 0
+  - name: Vert_win
+    clip: {fileID: 8300000, guid: bf40593efd05492439c36d497b53ebae, type: 3}
+    volume: 1
+    pitch: 1.5
+    loop: 1
+    source: {fileID: 0}
+    playOnStart: 0
+  - name: Theme_menu
+    clip: {fileID: 8300000, guid: bf40593efd05492439c36d497b53ebae, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+    playOnStart: 0
